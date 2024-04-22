@@ -27,6 +27,6 @@ Clone the repository to your local machine.
 Install the required dependencies.
 Run the provided scripts and notebooks to explore the dataset and utilize the recommendation system.
 ## Contributors
-TANMAY TIWARI
-ABHINEET RAJ
-AYUSH MADURWAR
+## TANMAY TIWARI
+## ABHINEET RAJ
+## AYUSH MADURWAR
