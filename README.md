@@ -3,6 +3,7 @@ This repository contains the code for a Restaurant Recommendation System impleme
 
 ## Dataset Description
 The dataset used for building the recommendation system is stored in the Zomato.csv file. It consists of 17 columns and 56251 rows, containing information such as restaurant URL, address, name, online order availability, table booking option, rating, number of votes, phone number, location, and restaurant type. The dataset size is approximately 0.5 GB.
+Dataset link : - https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants/data
 
 ## Methodology
 The implementation of the recommendation system follows a two-phase approach:
@@ -20,12 +21,12 @@ The recommendation system successfully provides personalized restaurant suggesti
 
 Overall, this project demonstrates the capabilities of PySpark and R in analyzing large datasets and building powerful recommendation engines for the restaurant industry.
 
-How to Use
+## How to Use
 To use the recommendation system:
-
 Clone the repository to your local machine.
 Install the required dependencies.
 Run the provided scripts and notebooks to explore the dataset and utilize the recommendation system.
+
 ## Contributors
 ## TANMAY TIWARI
 ## ABHINEET RAJ
