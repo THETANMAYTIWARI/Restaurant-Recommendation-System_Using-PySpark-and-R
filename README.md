@@ -75,7 +75,7 @@ The project explores restaurant data to:
 
 * Most popular restaurant chains.
 
-###🧩 Future Enhancements
+### 🧩 Future Enhancements
 
 * Integrate collaborative filtering for hybrid recommendations.
 
