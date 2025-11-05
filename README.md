@@ -65,7 +65,7 @@ The project explores restaurant data to:
 | Text Cleaning + TF-IDF     | R                           | Replicate results in R        | Consistent output and similarity ranking       |
 | Data Visualization         | Python (Matplotlib/Seaborn) | Explore restaurant trends     | Insightful graphs and heatmaps                 |
 
-###📍 Key Visualizations
+### 📍 Key Visualizations
 
 * Restaurant distribution by city.
 
