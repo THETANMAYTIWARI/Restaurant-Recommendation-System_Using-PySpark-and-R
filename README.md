@@ -1,33 +1,84 @@
-# Restaurant-Recommendation-System_Using-PySpark-and-R
-This repository contains the code for a Restaurant Recommendation System implemented using PySpark and R. The system leverages collaborative filtering techniques to provide personalized restaurant suggestions based on user preferences, ratings, and reviews.
+## 🍽️ Restaurant Recommendation System
 
-## Dataset Description
-The dataset used for building the recommendation system is stored in the Zomato.csv file. It consists of 17 columns and 56251 rows, containing information such as restaurant URL, address, name, online order availability, table booking option, rating, number of votes, phone number, location, and restaurant type. The dataset size is approximately 0.5 GB.
-Dataset link : - https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants/data
+A data-driven Restaurant Recommendation System built using Python, Apache Spark, and R, leveraging Zomato’s restaurant dataset to recommend similar restaurants based on reviews, cuisines, and ratings.
 
-## Methodology
-The implementation of the recommendation system follows a two-phase approach:
+### 🔗 Dataset: https://drive.google.com/file/d/16btZdVpeZcn5TNT3SU0bhaKOso4s_5xy/view?usp=sharing
 
-## Phase I: Data Scraping
-Data for each restaurant and each category was scraped individually, extracting 15 variables.
-Variables include online order availability, table booking option, rating, votes, phone number, location, restaurant type, dish liked, cuisines, approx. cost, reviews list, and menu item data.
-## Phase II: Recommendation System Development
-Implemented a content-based recommendation system using collaborative filtering techniques.
-Preprocessed the dataset, performed exploratory data analysis (EDA), and setup PySpark environment in Colab.
-Created a recommendation function to suggest similar restaurants based on ratings and cuisine types.
+### 🧠 Project Overview
 
-## Results and Discussion
-The recommendation system successfully provides personalized restaurant suggestions to users based on their preferences and past interactions. It enhances user experience on platforms like Zomato by offering tailored recommendations, improving engagement, and fostering repeat business.
+The project explores restaurant data to:
 
-Overall, this project demonstrates the capabilities of PySpark and R in analyzing large datasets and building powerful recommendation engines for the restaurant industry.
+* Analyze and visualize restaurant trends.
 
-## How to Use
-To use the recommendation system:
-Clone the repository to your local machine.
-Install the required dependencies.
-Run the provided scripts and notebooks to explore the dataset and utilize the recommendation system.
+* Clean, preprocess, and transform large datasets using PySpark.
 
-## Contributors
-## TANMAY TIWARI
-## ABHINEET RAJ
-## AYUSH MADURWAR
+* Implement a content-based recommendation system.
+
+* Recreate the model workflow using R for cross-language validation.
+
+### ⚙️ Technologies Used
+
+* Languages: Python, R.
+
+* Libraries: Pandas, NumPy, Seaborn, Matplotlib, PySpark, Scikit-learn, TM, Proxy.
+
+* Tech Stack: Apache Spark, Google Colab, RStudio.
+
+* Machine Learning Concepts: TF-IDF, Cosine Similarity, Text Cleaning, Stopword Removal.
+
+
+### 📊 Methodology
+
+🔹 Data Collection & Cleaning
+
+* Loaded dataset from Zomato using Google Drive.
+
+* Removed duplicates, missing values, and unnecessary columns.
+
+* Cleaned text data (reviews) by removing URLs, punctuation, and stopwords.
+
+🔹 Data Analysis & Visualization
+
+* Visualized restaurant statistics — location, rating distribution, service types, costs, and online booking trends.
+
+* Identified correlations among restaurant features.
+
+🔹 Model Development & Recommendation
+
+* Computed TF-IDF vectors for restaurant reviews.
+
+* Calculated Cosine Similarity to recommend restaurants with similar reviews and cuisines.
+
+* Built scalable pipeline using PySpark for large data processing.
+
+🔹 Cross-Implementation in R
+
+* Replicated the process using R (tm & proxy packages) for reproducibility.
+
+* Used TF-IDF and cosine similarity to generate top-10 restaurant recommendations.
+
+### 📈 Sample Results
+
+| 🍴 **Model/Approach**      | ⚡ **Framework**             | 🎯 **Goal**                   | 📊 **Result**                                  |
+| :------------------------- | :-------------------------- | :---------------------------- | :--------------------------------------------- |
+| TF-IDF + Cosine Similarity | PySpark                     | Recommend similar restaurants | Successful recommendations with top-10 matches |
+| Text Cleaning + TF-IDF     | R                           | Replicate results in R        | Consistent output and similarity ranking       |
+| Data Visualization         | Python (Matplotlib/Seaborn) | Explore restaurant trends     | Insightful graphs and heatmaps                 |
+
+###📍 Key Visualizations
+
+* Restaurant distribution by city.
+
+* Online order vs rating comparison.
+
+* Cost vs rating trends.
+
+* Most popular restaurant chains.
+
+###🧩 Future Enhancements
+
+* Integrate collaborative filtering for hybrid recommendations.
+
+* Build a web dashboard (Streamlit or Shiny).
+
+* Add sentiment analysis on reviews.
